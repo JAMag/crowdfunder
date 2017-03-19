@@ -2,6 +2,8 @@ source 'https://rubygems.org'
 
 gem 'bootstrap-sass'
 gem 'font-awesome-rails'
+gem 'devise', '~>  4.1.1'
+
 
 
 
