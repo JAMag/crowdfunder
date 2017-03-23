@@ -3,6 +3,9 @@ source 'https://rubygems.org'
 gem 'bootstrap-sass'
 gem 'font-awesome-rails'
 gem 'devise', '~>  4.1.1'
+gem 'annotate'
+gem 'simple_form'
+gem 'bootstrap-wysihtml5-rails', github: 'nerian/bootstrap-wysihtml5-rails'
 
 
 
