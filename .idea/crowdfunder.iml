@@ -137,9 +137,11 @@
     <orderEntry type="library" scope="PROVIDED" name="binding_of_caller (v0.7.2, RVM: ruby-2.2.0) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="bootstrap-sass (v3.3.7, RVM: ruby-2.2.0) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="bootstrap-wysihtml5-rails (v0.3.3.8@245d7a, RVM: ruby-2.2.0) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="braintree (v2.72.0, RVM: ruby-2.2.0) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="builder (v3.2.3, RVM: ruby-2.2.0) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="bundler (v1.13.7, RVM: ruby-2.2.0) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="byebug (v9.0.6, RVM: ruby-2.2.0) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="cancancan (v1.16.0, RVM: ruby-2.2.0) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="coffee-rails (v4.1.1, RVM: ruby-2.2.0) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="coffee-script (v2.4.1, RVM: ruby-2.2.0) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="coffee-script-source (v1.12.2, RVM: ruby-2.2.0) [gem]" level="application" />
@@ -147,10 +149,14 @@
     <orderEntry type="library" scope="PROVIDED" name="date_validator (v0.9.0, RVM: ruby-2.2.0) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="datetimepicker-rails (v4.7.16@36d21c, RVM: ruby-2.2.0) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="debug_inspector (v0.0.2, RVM: ruby-2.2.0) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="delayed_job (v4.1.2, RVM: ruby-2.2.0) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="delayed_job_active_record (v4.1.1, RVM: ruby-2.2.0) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="delayed_job_web (v1.2.10, RVM: ruby-2.2.0) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="devise (v4.1.1, RVM: ruby-2.2.0) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="erubis (v2.7.0, RVM: ruby-2.2.0) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="execjs (v2.7.0, RVM: ruby-2.2.0) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="font-awesome-rails (v4.7.0.0, RVM: ruby-2.2.0) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="friendly_id (v5.1.0, RVM: ruby-2.2.0) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="globalid (v0.3.7, RVM: ruby-2.2.0) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="i18n (v0.8.1, RVM: ruby-2.2.0) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="jbuilder (v2.6.3, RVM: ruby-2.2.0) [gem]" level="application" />
@@ -162,10 +168,12 @@
     <orderEntry type="library" scope="PROVIDED" name="mime-types-data (v3.2016.0521, RVM: ruby-2.2.0) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="mini_portile2 (v2.1.0, RVM: ruby-2.2.0) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="minitest (v5.10.1, RVM: ruby-2.2.0) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="momentjs-rails (v2.17.1, RVM: ruby-2.2.0) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="multi_json (v1.12.1, RVM: ruby-2.2.0) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="nokogiri (v1.7.0.1, RVM: ruby-2.2.0) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="orm_adapter (v0.5.0, RVM: ruby-2.2.0) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="rack (v1.6.5, RVM: ruby-2.2.0) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="rack-protection (v1.5.3, RVM: ruby-2.2.0) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="rack-test (v0.6.3, RVM: ruby-2.2.0) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="rails (v4.2.1, RVM: ruby-2.2.0) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="rails-deprecated_sanitizer (v1.0.3, RVM: ruby-2.2.0) [gem]" level="application" />
@@ -179,6 +187,7 @@
     <orderEntry type="library" scope="PROVIDED" name="sass-rails (v5.0.6, RVM: ruby-2.2.0) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="sdoc (v0.4.2, RVM: ruby-2.2.0) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="simple_form (v3.2.1, RVM: ruby-2.2.0) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="sinatra (v1.4.8, RVM: ruby-2.2.0) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="spring (v2.0.1, RVM: ruby-2.2.0) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="sprockets (v3.7.1, RVM: ruby-2.2.0) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="sprockets-rails (v3.2.0, RVM: ruby-2.2.0) [gem]" level="application" />

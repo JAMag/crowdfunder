@@ -10,8 +10,11 @@ gem 'date_validator'
 # Date Picker
 gem 'datetimepicker-rails', github: 'zpaulovics/datetimepicker-rails', branch: 'master', submodules: true
 gem 'momentjs-rails'
-
-
+gem 'braintree'
+gem 'delayed_job_active_record'
+gem 'delayed_job_web'
+gem 'friendly_id', '~> 5.1.0'
+gem 'cancancan', '~> 1.10'
 
 
 
