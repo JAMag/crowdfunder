@@ -9,6 +9,7 @@ class PaymentsController < ApplicationController
     @pledge  =  current_user.pledges.build(payment_params)
     @rewards =  @project.rewards
 
+
     respond_to do |format|
       if @reward && @amount.present? && @reward.value <= @amount
         format.html

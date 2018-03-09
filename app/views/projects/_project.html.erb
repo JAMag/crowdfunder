@@ -11,23 +11,24 @@
 
       <!-- Project Description -->
       <div class="description">
-        <%= link_to project.name %>
+        <%= link_to project.description %>
       </div>
 
+      <hr/>
       <!-- Project Progress Bar -->
-      <div class="project-bar">
-        <div class="progress">
-          <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="<%= project.pledges %>" aria-valuemin="0" aria-valuemax="100" style="width:<%= project.pledges %>">
-            <span class="sr-only">100% Complete (Success)</span>
-          </div>
-        </div>
-      </div>
+      <!--<div class="project-bar">-->
+        <!--<div class="progress">-->
+          <!--<div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="<#project.total_backed_amount %>" aria-valuemin="0" aria-valuemax="<# project.pledges %>" style="width:<# project.pledges %>">-->
+            <!--<span class="sr-only">100% Complete (Success)</span>-->
+          <!--</div>-->
+        <!--</div>-->
+      <!--</div>-->
 
       <!-- Project Stats -->
       <div class="stats">
         <ul>
           <!-- percentage of funding -->
-          <li><%= project.pledges %> <br><span class="label">funded</span></li>
+          <li><%= project.pledges.count %> <br><span class="label">funded</span></li>
           <!-- total amount pledged (dollars) -->
           <li>$<%= project.total_backed_amount %><br><span class="label">pledged</span></li>
           <!-- days to go 'till deadline -->

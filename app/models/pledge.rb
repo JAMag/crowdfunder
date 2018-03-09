@@ -10,7 +10,7 @@ class Pledge < ActiveRecord::Base
   after_create :check_if_funded
 
   def project
-    reward.project
+   reward.project
   end
 
   def charge!

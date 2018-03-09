@@ -1,6 +1,6 @@
 <%= simple_form_for @pledge, url: {controller: :payments, action: :create }, method: :post do |f| %>
     <%= f.input :amount, :as => :hidden, input_html: {:value => @amount} %>
-    <%= f.input :reward_id, :as => :hidden, input_html: {:value => @reward_id} %>
+    <%= f.input :reward_id, :as => :hidden, input_html: {:value => @reward.id} %>
     <fieldset>
       <legend>Card Information</legend>
       <div id="card-fields"></div>
